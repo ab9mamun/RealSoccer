@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="768.0" minWidth="1366.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="startpkg.faqController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="768.0" layoutX="-19.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="1366.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <TabPane layoutX="404.0" layoutY="122.0" prefHeight="482.0" prefWidth="569.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Instruction">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="452.0" layoutX="2.0" stroke="BLACK" strokeType="INSIDE" width="569.0" />
+                        <Label layoutX="184.0" prefHeight="43.0" prefWidth="175.0" text="How to play">
+                           <font>
+                              <Font name="Aharoni Bold" size="29.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="93.0" prefHeight="34.0" prefWidth="537.0" text="One player will create a game and another player will join that game.">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="120.0" prefHeight="34.0" prefWidth="537.0" text="To join the game, player has to enter server's IP address in the network">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="146.0" prefHeight="34.0" prefWidth="537.0" text="they both are connected.  Game starts moments after Server hits play">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="18.0" layoutY="173.0" prefHeight="34.0" prefWidth="67.0" text="button.">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="65.0" prefHeight="34.0" prefWidth="101.0" text="Connecting:">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="210.0" prefHeight="34.0" prefWidth="89.0" text="GamePlay:">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="244.0" prefHeight="34.0" prefWidth="537.0" text="Each player is able to control five players of a team. Drag the player">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="272.0" prefHeight="34.0" prefWidth="537.0" text="using mouse and release to give it a velocity. The velocity increases">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="18.0" layoutY="298.0" prefHeight="34.0" prefWidth="537.0" text="with drag distance upto a certain limit. After that velocity again">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="325.0" prefHeight="34.0" prefWidth="537.0" text="decerases. The higher scorer after 90 minutes wins.">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="55.0" layoutY="405.0" prefHeight="34.0" prefWidth="461.0" text="Don't forget to install the fonts came with the game">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab text="FAQ">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="458.0" layoutX="1.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="569.0" />
+                        <Label layoutX="232.0" prefHeight="43.0" prefWidth="65.0" text="FAQ">
+                           <font>
+                              <Font name="Aharoni Bold" size="29.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="45.0" layoutY="405.0" prefHeight="34.0" prefWidth="145.0" text="Full Screen Mode:">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="81.0" prefHeight="34.0" prefWidth="347.0" text="Run command prompt from server's pc. Type">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="363.0" layoutY="81.0" prefHeight="34.0" prefWidth="86.0" text="ipconfig">
+                           <font>
+                              <Font name="Aharoni Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="455.0" layoutY="81.0" prefHeight="34.0" prefWidth="100.0" text="and hit enter.">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="109.0" prefHeight="34.0" prefWidth="539.0" text="Find the suitable IPV4 address from the network that you both are">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="136.0" prefHeight="34.0" prefWidth="539.0" text="connected to. This is usually &quot;Wireless Lan Adapter Wi-fi&quot; if you are">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="160.0" prefHeight="34.0" prefWidth="539.0" text="connected to a wireless hotspot (router, pc, smartphone etc.)  and">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="16.0" layoutY="186.0" prefHeight="34.0" prefWidth="539.0" text="&quot;Ethernet Adapter Ethernet&quot; if you are connected by a lan cable.">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="210.0" prefHeight="34.0" prefWidth="377.0" text="Q. Do I need internet access to play this game?">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="238.0" prefHeight="34.0" prefWidth="30.0" text="No.">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="263.0" prefHeight="34.0" prefWidth="540.0" text="Q. Facing problems with connection/Animation Lag">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="287.0" prefHeight="34.0" prefWidth="499.0" text="Turn off power saver mode in both PCs. Keep the PCs near to the">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="312.0" prefHeight="34.0" prefWidth="499.0" text="router in case of wireless connection. You may also adjust number">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="337.0" prefHeight="34.0" prefWidth="499.0" text="of network Ports.">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="192.0" layoutY="405.0" prefHeight="34.0" prefWidth="21.0" text="F4">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="355.0" layoutY="405.0" prefHeight="34.0" prefWidth="102.0" text="Adjust Ports:">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="463.0" layoutY="405.0" prefHeight="34.0" prefWidth="32.0" text="F10">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="54.0" prefHeight="34.0" prefWidth="219.0" text="Q. How to find server's IP?">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Credits">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="452.0" stroke="BLACK" strokeType="INSIDE" width="569.0" />
+                        <Label layoutX="200.0" prefHeight="43.0" prefWidth="98.0" text="Credits">
+                           <font>
+                              <Font name="Aharoni Bold" size="29.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="74.0" prefHeight="34.0" prefWidth="98.0" text="Developers:">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="108.0" prefHeight="34.0" prefWidth="178.0" text="Abdullah Al Mamun  ">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="269.0" layoutY="108.0" prefHeight="34.0" prefWidth="151.0" text="Abu Sifat Chanchal">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="7.0" layoutY="260.0" prefHeight="15.0" prefWidth="177.0" text="Lecturer, Dept. of CSE, BUET">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="193.0" prefHeight="34.0" prefWidth="98.0" text="Supervisor:">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="226.0" prefHeight="34.0" prefWidth="160.0" text="Tanvir Ahmed Khan">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="303.0" prefHeight="34.0" prefWidth="240.0" text="Special Thanks to our seniors:">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="331.0" prefHeight="34.0" prefWidth="99.0" text="Nafis Sadeq">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="270.0" layoutY="331.0" prefHeight="34.0" prefWidth="120.0" text="Rubaba Hasan">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button layoutX="806.0" layoutY="62.0" mnemonicParsing="false" onAction="#backToMainMenu" prefHeight="60.0" prefWidth="167.0" text="Main Menu">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="404.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="407.0" />
+      <Label layoutX="572.0" layoutY="67.0" prefHeight="50.0" prefWidth="199.0" text="Real Soccer">
+         <font>
+            <Font name="AR DESTINE" size="34.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

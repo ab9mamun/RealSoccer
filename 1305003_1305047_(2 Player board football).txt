@@ -1,0 +1,32 @@
+Link to the project:
+
+Source code-> Term Project Soccer Star directory.
+App -> Real Soccer.zip
+Instructions-> Instructions.txt
+
+
+
+
+Run the app:
+	Run the Real Soccer.jar file from the zipped folder and hit (i) button.. 
+	See the instructions and faq page for help.
+
+	Method 2: Open the project Term Project Soccer Star and run StartMain.main() method twice. Hit Create game from
+		one window and Join Game from another.
+
+Important: 
+	Install the fonts from the Fonts directory.
+	If java is not installed in your pc, go download jdk 8 or later.
+
+
+To change port count, you may try hitting F10
+
+
+
+
+
+Report bugs/any suggestion: ab9mamun@gmail.com
+
+jdk download
+
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
